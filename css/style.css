@@ -20,6 +20,10 @@ html{
         font-size:16px;
     }
 }
+
+a{
+    text-decoration: none;
+}
 main .content{
     padding-bottom:0;
 }
@@ -74,6 +78,8 @@ main .content{
     color:orangered;
 }
 .welcome .btn{
+    color:#fff;
+    display:block;
     font-size: 1rem;
     width: 8rem;
     height: 2rem;
@@ -142,6 +148,7 @@ main .content{
 
 
 main .toCasesBtn,.ourCases .toFamilyBtn{
+    display: block;
     width: 75%;
     height: 1.8rem;
     line-height:1.8rem;
@@ -170,14 +177,12 @@ main .toCasesBtn,.ourCases .toFamilyBtn{
     left:0;
     top:0;
     z-index:50;
-    display:none;
     background-image: url(../img/bg3.png);
 }
 .ourCases .container{
     width: 100%;
     max-width: 1200px;
     margin:auto;
-    /* border:1px solid red; */
     display:flex;
     flex-wrap:wrap;
     justify-content: space-around;
